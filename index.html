@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Fotografía</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        
+        <div class="logo">
+                <a href="#"><img src="img/firma nueva.png" alt="Logo de la Marca"></a>
+        </div>
+
+        <nav>
+                <ul class="linksnav">
+                    <div class="menu-header">
+                        <strong>
+                            <li><a href="#" target="_blank">Retratos</a></li>
+                            <li><a href="#" target="_blank">Casamientos</a></li>
+                            <li><a href="#" target="_blank">Cumpleaños</a></li>                         
+                            <li><a href="#"> <img class="carrito" src="img/Iconos redes/icons8-carrito-de-compras.gif" alt=""></a></li>
+                            <div id="numero"></div>                                          
+                        </strong>
+                    </div>            
+                </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Contenedor de Carrito -->
+<div id="carrito" class="carrito-contenedor" style="display: none;">
+    <h4>Tu Carrito</h4>
+    <ul id="carrito-lista"></ul>
+    <p>Total: <span id="total">$0</span></p>
+    <button id="finalizar-compra">Finalizar compra</button>
+</div>
+
+
+    <section class="section">
+
+        <main class="main-contenido">
+
+            <img class="img-fondo" src="img/a7r.jpg" alt="fondo con Camara">
+            <div class="div-titulo">
+                <h1 class="titulo">Angel Bravo</h1>
+                <h2>Fotógrafo Profesional</h2>
+            </div>
+            
+
+            
+        </main>
+    </section>
+
+    <h3 class="servicios">Mis Servicios</h3>
+
+        <p class="parrafo">
+            Desde 2017 soy fotógrafo brindo mis servicios de Fotógrafo Profesional.
+        </p>   
+            
+        <p class="parrafo">
+            Me encanta retratar momentos únicos.
+        </p>
+
+
+
+    <div class="contenedor" id="contenedor">
+        <div>
+            <img class="imagen" src="img/Card/casamientoA.jpg" alt="Producto 1">
+            <div class="informacion">
+                <p>Fotos Casamiento</p>
+                <p class="precio">$500000</p>
+                <button class="btn-agregar" data-nombre="Producto 1" data-precio="500000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/casamientoB.jpg" alt="Producto 2">
+            <div class="informacion">
+                <p>Video/Backstage Casamiento</p>
+                <p class="precio">$500000</p>
+                <button class="btn-agregar" data-nombre="Producto 2" data-precio="500000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/casamientoC.jpg" alt="Producto 3">
+            <div class="informacion">
+                <p>Fotolibro Casamiento</p>
+                <p class="precio">$200000</p>
+                <button class="btn-agregar" data-nombre="Producto 3" data-precio="200000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/retratoA.jpg" alt="Producto 4">
+            <div class="informacion">
+                <p>Fotos Retrato</p>
+                <p class="precio">$200000</p>
+                <button class="btn-agregar" data-nombre="Producto 4" data-precio="200000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/retratoB.jpg" alt="Producto 5">
+            <div class="informacion">
+                <p>Backstage Retrato</p>
+                <p class="precio">$150000</p>
+                <button class="btn-agregar" data-nombre="Producto 5" data-precio="150000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/retratoC.jpg" alt="Producto 6">
+            <div class="informacion">
+                <p>Fotolibro Retrato</p>
+                <p class="precio">$150000</p>
+                <button class="btn-agregar" data-nombre="Producto 6" data-precio="150000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/cumple1.jpg" alt="Producto 7">
+            <div class="informacion">
+                <p>Fotos Cumpleaños</p>
+                <p class="precio">$400000</p>
+                <button class="btn-agregar" data-nombre="Producto 7" data-precio="400000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/cumple2.jpg" alt="Producto 8">
+            <div class="informacion">
+                <p>Video/Backstage Cumpleaños</p>
+                <p class="precio">$200000</p>
+                <button class="btn-agregar" data-nombre="Producto 8" data-precio="200000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+        <div>
+            <img class="imagen" src="img/Card/cumple3.jpg" alt="Producto 9">
+            <div class="informacion">
+                <p>Fotolibro Cumpleaños</p>
+                <p class="precio">$200000</p>
+                <button class="btn-agregar" data-nombre="Producto 9" data-precio="200000.00">Añadir al Carrito</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <h3 class="servicios">Reseñas</h3>
+
+    <div class="container">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/Reseñas/cumple5.jpg" alt="">
+                <h4>María Lorena</h4>
+                <p class="Reseña">"Contraté a Angel por las buenas referencias con las que contaba y la verdad no me decepcionó. Muy profesional y prolijo en su trabajo."</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Reseñas/ec17.jpg" alt="">
+                <h4>Dr. Saladino</h4>
+                <p class="Reseña">"Conozco a Angel de compartir quirófano, asi que sabía que su trabajo iba a ser de calidad."</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Reseñas/ec18.jpg" alt="">
+                <h4>Dr. Cárdenas</h4>
+                <p class="Reseña">"Necesitaba unas fotos para publicar unos trabajos de investigación y me recomendaron trabajar con Angel. La verdad, su trabajo es excelente."</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Reseñas/ec2.jpg" alt="">
+                <h4>Linda Bellozo</h4>
+                <p class="Reseña">"Inaugurábamos un nuevo Salón y no contábamos con fotógrafo. Por suerte pude contactarme con Angel y me solucionó lo que hubiese sido un gran disgusto"</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Reseñas/ec20.jpg" alt="">
+                <h4>Marcela Gris</h4>
+                <p class="Reseña">"Mis alumnos se recibían y querían quedarse con unas lindas fotos. Asi que no lo dudé y me comuniqué porque ya conocía su trabajo"</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Reseñas/estudio4.jpg" alt="">
+                <h4>Nadia Lorenzi</h4>
+                <p class="Reseña">"Conocí a Angel en un evento y coordinamos para hacer fotos en estudio. Increíble su profesionalismo. Lo recomiendo 100%"</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="formulario">
+        
+        <form action="https://formspree.io/f/xldebkao" method="POST" class="form">
+
+            <div class="form-header">
+                <h3 class="form-titulo">C<span>ontactame</span></h3>
+            </div>
+
+            <label for="name" class="form-label">Nombre:</label>
+            <input type="text" name="name" id="name" class="form-input" placeholder="Escriba su Nombre" required>
+
+            <label for="lastname" class="form-label">Apellido</label>
+            <input type="text" name="lastname" class="form-input" placeholder="Escriba su Apellido" required>
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="Escriba su Correo" required>
+
+            <label for="teléfono" class="form-label">Teléfono</label>
+            <input type="phone" id="phone" class="form-input" placeholder="Escriba su teléfono" required>
+
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea id="mensaje" class="form-textarea" placeholder="Escriba su Mensaje"></textarea>
+
+            <input type="submit" class="btn-submit" value="Enviar Consulta">
+
+
+        </form>
+                 
+    </div>
+
+    <footer class="footer">
+
+        <ul class="iconos-social">
+            <li class="iconos-elem">
+                <a href="https://www.instagram.com/angel_fotog" class="icono" target="_blank"><img src="./img/Iconos redes/social.png" alt=""></a>
+            </li>
+            <li class="iconos-elem">
+                <a href="mailto:angelbravo1983@gmail.com" class="icono" target="_blank"><img src="./img/Iconos redes/gmail (1).png" alt=""></a>
+            </li>
+            <li class="iconos-elem">
+                <a href="" class="icono" target="_blank"><img src="./img/Iconos redes/whatsapp.png" alt=""></a>
+            </li>
+        </ul>
+
+        <ul class="menu">
+
+            <li class="menu-elem">
+                <a href="#" class="menu-icon">Inicio</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#" class="menu-icon">Galería</a>
+            </li>
+            <li class="menu-elem">
+                <a href="#" class="menu-icon">Contacto</a>
+            </li>
+
+        </ul>
+
+        <p class="text">@2024 - Todos los Derechos Reservados.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
